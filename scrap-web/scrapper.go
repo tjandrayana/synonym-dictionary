@@ -167,5 +167,5 @@ func checkError(message string, err error) {
 		log.Fatal(message, err)
 	}
 
-	fmt.Println("check")
+	fmt.Println("adasdasd")
 }
