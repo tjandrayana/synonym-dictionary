@@ -170,3 +170,7 @@ func checkError(message string, err error) {
 	text = ""
 	fmt.Println(text)
 }
+
+func bbb() {
+	fmt.Println("masih")
+}
