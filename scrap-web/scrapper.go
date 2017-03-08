@@ -35,7 +35,7 @@ func main() {
 
 	for i := 0; i <= 39045; i++ {
 		fmt.Println(i)
-		url := fmt.Sprintf("http://www.persamaankata.com/")
+		url := fmt.Sprintf(URL)
 		url = fmt.Sprintf("%s%d/", url, i)
 		resp, err := client.Get(url)
 		if err != nil {
@@ -166,14 +166,4 @@ func checkError(message string, err error) {
 	if err != nil {
 		log.Fatal(message, err)
 	}
-
-}
-
-func aaa() {
-	fmt.Println("dfsdafasdf")
-	fmt.Println("sadasd")
-}
-
-func bbb() {
-	fmt.Println("masih")
 }
