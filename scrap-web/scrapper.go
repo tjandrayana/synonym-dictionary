@@ -171,3 +171,11 @@ func checkError(message string, err error) {
 func fery() {
 	fmt.Println("lalala")
 }
+func reverseString(input string) string {
+	var rev string = ""
+
+	for i := len(input); i > 0; i-- {
+		rev += string(input[i])
+	}
+	return rev
+}
