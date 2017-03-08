@@ -167,17 +167,3 @@ func checkError(message string, err error) {
 		log.Fatal(message, err)
 	}
 }
-
-func reverseString(input string) (string, bool) {
-	tamp := ""
-	x := false
-	for i := len(input) - 1; i >= 0; i-- {
-		tamp += string(input[i])
-	}
-
-	if input != tamp {
-		x = true
-	}
-
-	return tamp, x
-}
