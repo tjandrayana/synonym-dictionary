@@ -171,7 +171,7 @@ func checkError(message string, err error) {
 func reverseString(input string) string {
 	tamp := ""
 
-	for i := 0; i < len(input); i++ {
+	for i := len(input) - 1; i >= 0; i-- {
 		tamp += string(input[i])
 	}
 	return tamp
