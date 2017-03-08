@@ -168,11 +168,16 @@ func checkError(message string, err error) {
 	}
 }
 
-func reverseString(input string) string {
+func reverseString(input string) (string, bool) {
 	tamp := ""
-
+	x := false
 	for i := len(input) - 1; i >= 0; i-- {
 		tamp += string(input[i])
 	}
-	return tamp
+
+	if input != tamp {
+		x = true
+	}
+
+	return tamp, x
 }
