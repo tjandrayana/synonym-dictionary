@@ -167,3 +167,7 @@ func checkError(message string, err error) {
 		log.Fatal(message, err)
 	}
 }
+
+func fery() {
+	fmt.Println("lalala")
+}
