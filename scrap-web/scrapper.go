@@ -167,6 +167,9 @@ func checkError(message string, err error) {
 		log.Fatal(message, err)
 	}
 
+}
+
+func aaa() {
 	fmt.Println("dfsdafasdf")
 	fmt.Println("sadasd")
 }
