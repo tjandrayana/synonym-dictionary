@@ -167,8 +167,11 @@ func checkError(message string, err error) {
 		log.Fatal(message, err)
 	}
 
-	text = ""
-	fmt.Println(text)
+}
+
+func aaa() {
+	fmt.Println("dfsdafasdf")
+	fmt.Println("sadasd")
 }
 
 func bbb() {
