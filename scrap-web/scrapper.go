@@ -166,4 +166,14 @@ func checkError(message string, err error) {
 	if err != nil {
 		log.Fatal(message, err)
 	}
+
+}
+
+func aaa() {
+	fmt.Println("dfsdafasdf")
+	fmt.Println("sadasd")
+}
+
+func bbb() {
+	fmt.Println("masih")
 }
