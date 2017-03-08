@@ -168,10 +168,6 @@ func checkError(message string, err error) {
 	}
 }
 
-func fery() {
-	fmt.Println("lalala")
-}
-
 func reverseString(input string) string {
 	tamp := ""
 
