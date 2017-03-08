@@ -177,3 +177,7 @@ func aaa() {
 func bbb() {
 	fmt.Println("masih")
 }
+
+func fery() {
+	fmt.Println("lalala")
+}
