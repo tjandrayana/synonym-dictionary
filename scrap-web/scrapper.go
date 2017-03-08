@@ -176,11 +176,3 @@ func reverseString(input string) string {
 	}
 	return tamp
 }
-func reverseString(input string) string {
-	var rev string = ""
-
-	for i := len(input); i > 0; i-- {
-		rev += string(input[i])
-	}
-	return rev
-}
